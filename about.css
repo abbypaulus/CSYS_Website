@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+#tagNum{
+    background: #e5e7eb;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+#tagNum h2, #tagNum ul{
+    width: 100%;
+    margin: 0px auto;
+}
+
+#tagNum ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+#tagNum li{
+    color: #ff8701;
+    padding: 0px 50px;
+}

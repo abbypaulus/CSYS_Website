@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: aptos;
+    src: url(fonts/aptos.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: aptos;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background: #004096;
+}
+
+#heading{
+    width: 100%;
+}
+
+#heading #logo{
+    width: 150px;
+    margin: auto;
+}
+
+#heading h1{
+    color: whitesmoke;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+#title{
+    background: #3c82f6;
+    width: 100%;
+    color: whitesmoke;
+    padding: 25px 15px;
+}
+
+#miniNav ul{
+    background:#e05901;
+}
+#miniNav ul{
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+}
+
+#miniNav ul li{
+    width: 15%;
+    padding: 0px;  
+    margin: 5px;  
+    text-align: center;
+}
+
+#miniNav ul li a{
+    color: #123360;
+}
+
+#asterisk{
+    width: 100%;
+    text-align: center;
+    color: grey;
+}
+
+footer{
+    background: #004096;
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 50px;
+    padding: 25px;
+    position: absolute;
+    bottom: 1;
+}
+
+footer a{
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 480px){
+    nav ul{
+        display: flex;
+        flex-flow: column;
+    }
+
+    nav li{
+        width: 100%;
+        margin: 25px;
+
+    }
+
+    nav li a{
+        margin: 25px;
+    }
+
+    #title {
+        padding: 20px 20px;
+    }
+    
+    #title h1{
+        font-size: 25pt;
+    }
+    
+    #title h3{
+        font-size: 15pt;
+    }
+
+    #asterisk h6{
+        font-size: 12pt;
+        padding: 5px 0px;
+    }
+
+    footer{
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 481px){
+    header nav ul{
+        display: flex;
+        list-style-type: none;
+        background:#e05901;
+    }
+    
+    header nav ul li{
+        width: 15%;
+        text-align: center;
+    }
+    
+    header nav ul li a{
+        padding: 5px;  
+        color: #123360;
+    }
+
+    #heading #logo{
+        width: 150px;
+        margin: auto;
+    }
+
+    nav li{
+        float: left;
+    }   
+    
+    nav a{
+        display: block;
+    }
+
+    #asterisk{
+        font-size: 16pt;
+    }
+
+}

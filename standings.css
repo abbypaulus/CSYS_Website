@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+#ageGroups{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.card{
+    background: #123360;
+    border-radius: 10px;
+    padding: 15px;
+    aspect-ratio: 1/1;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.card h3{
+    font-size: 25pt;
+    margin: 5px;
+}
+
+.card h4{
+    background:#e05901;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card h4:hover{
+    background-color: #ba4a01;
+}
+
+@media screen and (max-width: 480px){    
+    #ageGroups{
+        margin: 25px 0px;
+    }
+
+    .card{
+        width: 45%;
+        margin: 5px auto;
+    }
+
+    .card h3{
+        font-size: 20pt;
+    }
+
+    .card h4{
+        font-size: 12pt;
+        width: 75%;
+        margin: 10px auto;
+    }  
+    
+    
+}
+
+@media screen and (min-width: 481px){
+    #ageGroups{
+        margin: 25px 5px;
+    }
+
+    .card{
+        width: 30%;
+        margin: 15px auto;
+    }
+
+    .card h3{
+        font-size: 20pt;
+    }
+
+    .card h4{
+        font-size: 12pt;
+        width: 50%;
+        margin: 10px auto;
+    }  
+
+}
