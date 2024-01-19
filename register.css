@@ -1,1 +1,76 @@
 @charset "utf-8";
+#title{
+    padding: 50px;    
+}   
+
+h2#pricing{
+    width: 100%;
+    text-align: center;
+    font-size: 30pt;
+}
+
+#miniNav ul{
+    display: flex;
+    list-style-type: none;
+    background:#e05901;
+}
+
+#miniNav ul li{
+    width: 15%;
+    text-align: center;
+}
+
+#miniNav ul li a{
+    padding: 5px;  
+    color: #e5e7eb;
+}
+
+#miniNav li{
+    float: left;
+}   
+
+#miniNav a{
+    display: block;
+}
+
+#cards{
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.card{
+    width: 30%;
+    aspect-ratio: 1/1.5;
+    max-width: 400px;
+    background: #123360;
+    margin: auto;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.card h3, .card p{
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.card h3{
+    font-size: 25pt;
+}
+
+.card .price{
+    width: 100%;
+    font-size: 70pt;
+    margin: auto;
+}
+
+.card .button p{
+    background: #e05901;
+    font-size: 30pt;
+    width: 100%;
+    border-radius: 5px;
+    align-self: ba;
+}
+
