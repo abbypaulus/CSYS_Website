@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+
+
+p{
+    width: 100%;
+}
+
+ul{
+    list-style-type: square;
+}
+
+#gear{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.gear{
+    background: white;
+    min-width: 200px; 
+    width: 25%;
+    padding: 10px;
+    margin: auto;
+}
+
+.gear img{
+    object-fit: cover;
+    width: 100%;
+}
+
+#watch img{
+    width: 50%;
+}

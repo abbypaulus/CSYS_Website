@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+h2{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+#profile a{
+    background: #e05901;
+    width: 10%;
+    position: absolute;
+    right: 0;
+    top: 45%;
+    margin-right: 75px;
+    color: whitesmoke;
+    padding: 2.5px 5px;
+    text-align: center;
+    max-width: 250px;
+    font-size: 12pt;
+    height: 25px;
+}
+
+#games{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.game{
+    background: #123360;
+    margin: 10px;
+    width: calc(33% - 20px);
+    aspect-ratio: 1/0.6;
+    border-radius: 15px;
+    padding: 15px;
+    color: whitesmoke;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.game #time, #date{
+    width: 100%;
+    text-align: center;
+}
+
+
+.game .team, #group, #field, .ground{
+    width: 50%;
+    text-align: center;
+}
+
+.game .ground{
+    width: 50%;
+
+}
+

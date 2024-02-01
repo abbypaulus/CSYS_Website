@@ -1,4 +1,8 @@
 @charset "utf-8";
+#year{
+    font-size: 16pt;
+}
+
 
 #ageGroups{
     display: flex;
